@@ -1,0 +1,209 @@
+@font-face
+{
+  font-family: 'CreteRound';
+  src: url('fonts/CreteRound-Regular.ttf') format('ttf');
+}
+
+@font-face
+{
+  font-family: 'Lato';
+  src: url('fonts/Lato-Bold.ttf') format('ttf');
+}
+
+@font-face
+{
+  font-family: 'Lato';
+  src: url('fonts/Lato-Regular.ttf') format('ttf');
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.container
+{
+    width: 2000px;
+    margin: 0 auto;
+}
+
+.header
+{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.logo
+{
+    float: left;
+    margin: 61px 0 0 86px;
+    text-align: left;
+    font-family: 'Crete Round';
+    color: #060c31;
+    font-size: 34pt;
+    font-weight: 400;
+}
+
+.top_menu
+{
+    float: right;
+    margin: 79px 0 0 800px;
+}
+
+.menu_item
+{
+    display: inline;
+}
+
+.menu_link
+{
+    text-decoration: none;
+    padding: 0 20px;
+    font-family: 'Lato';
+    font-size: 13pt;
+    font-weight: 700;
+    color: #060c31;
+}
+
+.red_button_menu
+{
+    margin-left: 20px;
+    border-radius: 46px;
+    background-color: #ffffff;
+    height: 60px;
+    width: 180px;
+    border: solid;
+    border-width: 2px;
+    border-color: #ffb0b1;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 13pt;
+    color: #060c31;
+    cursor: pointer;
+}
+
+.main_screen
+{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.text_selection
+{
+    float: left;
+}
+
+.first_text
+{
+    font-family: 'Crete Round';
+    font-weight: 400;
+    color: #060c31;
+    font-size: 58pt;
+    line-height: 64pt;
+    margin: 185px 0 0 198px;
+    white-space: pre;
+}
+
+.second_text
+{
+    font-family: Lato;
+    font-weight: regular;
+    color: #060c31;
+    font-size: 15pt;
+    line-height: 28pt;
+    margin: 0 0 38px 198px;
+    white-space: pre
+}
+
+.blue_button
+{
+    display: inline-block;
+    padding: 5px 30px;
+    border-radius: 25px;
+    height: 50px;
+    width: 170px;
+    background-color: #233fe2;
+    box-shadow: none;
+    border: none;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 15px;
+    color: #ffffff;
+    margin: 0 20px 0 197px;
+    cursor: pointer;
+    outline: none;
+}
+
+.red_button
+{
+    display: inline-block;
+    padding: 5px 30px;
+    border-radius: 25px;
+    height: 50px;
+    width: 180px;
+    background-color: #ffffff;
+    box-shadow: none;
+    border: solid;
+    border-width: 2px;
+    border-color: #ffb0b1;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 15px;
+    color: #060c31;
+    margin: 20px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.photo
+{
+    float: right;
+    margin: 71px 0 0 61px;
+    height: 800px;
+    width: 1000px;
+}
+
+.footer
+{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.logos_container
+{
+    float: right;
+    margin: 0 0 0 520px;
+}
+
+.logo_link
+{
+    text-decoration: none;
+}
+
+.partner_logo_first
+{
+    padding: 0 90px;
+    margin: 118px 0 39px 0;
+}
+
+.partner_logo_last
+{
+    padding: 0 90px;
+    margin: 118px 0 43px 0;
+}
+
+.partner_logo
+{
+    padding: 0 90px;
+    margin: 118px 0 42px 0;
+}
+
